@@ -1,0 +1,105 @@
+html {
+  box-sizing:border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+h2, h4, p {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 15px;
+}
+#card {
+  width 600px;
+  height:400px;
+  box-shadow:11px 12px 8px -8px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  overflow: hidden;
+}
+#top-sect{
+  width:100%;
+  height: 45%;
+  padding: 25px;
+  
+}
+#btm-sect {
+  height: 55%;
+  width: 100%;
+  color: white;
+  
+}
+#btm-left {
+  height:100%;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(42, 178, 175);
+  padding: 25px;
+}
+#btm-right {
+  height:100%;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(30, 217, 213);
+  padding: 25px;
+}
+.join-com {
+  color: rgb(42, 178, 175);
+  margin-bottom: 15px;
+}
+#top-sect h4{
+  color: #c0df34;
+  margin-bottom: 10px
+}
+#top-sect p{
+  color: #98a6bd;
+}
+button {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  vertical-align: bottom;
+}
+#price-cont {
+  margin-bottom: 10px
+}
+#price {
+  display:inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+#subscription{
+  display: inline-block;
+  opacity: 0.6;
+ 
+}
+#btm-left h4{
+  margin-bottom:15px;
+  font-size: 1.5rem;
+}
+button:hover {
+  background-color: #DCFF3B
+}
+#btm-left p{
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  opacity: 0.8;
+  font-size: 0.9rem
+  
+}
+#btm-right h4{
+  font-size: 1.5rem;
+}
